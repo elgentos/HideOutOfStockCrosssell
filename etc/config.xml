@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Elgentos_HideOutOfStockCrosssell>
+            <version>1.0.0</version>
+        </Elgentos_HideOutOfStockCrosssell>
+    </modules>
+    <global>
+        <blocks>
+            <hideoutofstockcrosssell>
+                <class>Elgentos_HideOutOfStockCrosssell_Block</class>
+            </hideoutofstockcrosssell>
+            <checkout>
+                <rewrite>
+                    <cart_crosssell>Elgentos_HideOutOfStockCrosssell_Block_Checkout_Cart_Crosssell</cart_crosssell>
+                </rewrite>
+            </checkout>
+        </blocks>
+    </global>
+</config>
